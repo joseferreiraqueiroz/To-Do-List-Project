@@ -1,0 +1,121 @@
+.content{
+    display: flex;
+    align-items: center;
+    margin: -24px auto;
+    max-width: 45.136rem;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.content form{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.content form input{
+    padding: 1rem 1rem;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+}
+
+.content form button{
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.content form button:hover{
+    background-color: var(--blue);
+}
+
+.boxAddToList{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.8125rem; 
+    border-bottom: 1px solid var(--gray-500) ;
+}
+
+
+.boxAddToList p{
+    margin: 0; 
+    font-size: 14px;
+    margin-bottom: 1.5625rem;
+   
+}
+
+.boxAddToList p:first-child{
+    margin-right: auto;
+    color: var(--blue);
+    cursor: pointer;
+    transition: color 0.2s;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.boxAddToList p:last-child{
+    margin-left: auto; 
+    color: var(--purple);
+    cursor: pointer;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+.boxAddToList p:last-child:hover{
+    color: var(--purple-dark);
+}
+.boxAddToList p:first-child:hover{
+    color: var(--blue-dark);
+}
+.circleInformationList {
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 100%; 
+    
+}
+.circleInformationListtwo{
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 60px;
+  
+}
+.clipboardImage{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.clipboardImage img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.paragraphCreateList p:first-child{
+    color: var(--gray-300);
+    font-weight: bold;
+}
+.paragraphCreateList p:last-child{
+    color: var(--gray-300);
+    
+}
+.list{
+    margin-top: 1.5rem;
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+.ContentHeader{
+    padding: 6.25rem 0;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContentHeader img{
+    height: 3rem;
+}
